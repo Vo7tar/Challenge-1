@@ -2,30 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>Encriptador texto Alura</title>
     <link rel= "stylesheet" href ="reset.css">
     <link rel= "stylesheet" href ="style.css">
 </head>
+
 <body>
-    <header>
-        <img class= "logo" src="Imagenes/Logo.png" alt="logo-Alura">
-    </header>
     <main>
         <section class = "parte1">
+           <div class="logo-encabezado">
+                <img class= "logo" src="Imagenes/Logo.png" alt="logo-Alura">
+           </div>
+           
             <div class = "contenedor-texto">
                 <textarea  placeholder="ingrese su texto aqui" class= "caja-texto"></textarea>
             </div>
-            <div class= "exclamacio-anuncio">
+            <div class= "exclamacion-anuncio">
                 <img class="exclamacion" src="Imagenes/bi_exclamation-circle-fill.png" alt="!">
                 <p>Solo letras minúsculas y sin acentos</p>
             </div>
+            <div class="botones1">
+                <input type = "button" class="boton-encriptar" value="Encriptar">      
+                <input type = "button" class="boton-desencriptar" value="Desencriptar">
+            </div>
+        </section> 
+        <section class= "parte2">
+            <div class="caja-personaje">
+                <img src="Imagenes/Muñeco.png" alt="personaje-lupa">
+            </div>
+            <div class="contenedor-informacion">
+                <h3>Ningún mensaje fue <br>encontrado</br></h3>
+                <p>Ingrese el texto que deseas encriptar o <br>desencriptar<br></p>
+            </div>
+            <div class="caja-resultado">
+                <p class="texto-final"></p>
+            </div>
+            <div class="botones2">
+                <input type = "button" class="boton-copiar"  value="Copiar">
+            </div>
         </section>
+
+        <div class="mensaje-error"></div>
     </main>
-
-    <footer>
-
-    </footer>    
+    <script src="script.js"></script>
 </body>
 </html>
 

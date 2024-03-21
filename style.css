@@ -1,0 +1,190 @@
+body{
+    background: #F3F5FC;
+    width: 100%;
+    height: auto;
+}
+
+main{
+    box-sizing:border-box;
+    padding: 40px 40px;
+    position:absolute;
+    width: 100%;
+    height: 90%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.logo {
+    width: 120px;
+    height: 48px;
+}
+
+.contenedor-texto{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 150px;
+    left: 200px;
+    padding-left: 100px;
+    display: flex;
+
+}
+
+.caja-texto{
+    background: #F3F5FC;
+    width:80%;
+    height: 100%;
+    border:none;
+    cursor:pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color:#0A3871;
+    
+}
+
+.caja-texto::placeholder{
+    color:#0A3871;
+}
+
+.exclamacion-anuncio{
+    position:absolute;
+    top: 851px;
+    left: 240px;
+    display: flex;
+    padding-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #495057;
+
+}
+
+.botones1{
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    top: 800px;
+    left: 200px;
+}
+
+.boton-encriptar{
+    background: #0A3871;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    border:none;
+    cursor:pointer;
+}
+
+.boton-desencriptar{
+    background: #D8DFE8;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-color: #0A3871 ;
+    border-radius: 24px;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+    cursor:pointer;
+    }
+
+.parte2{
+    position: absolute;
+    width: 400px;
+    height: 800px;
+    right: 200px;
+    left:900px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);    
+}
+
+.caja-personaje{
+    position:absolute;
+    width: 306px;
+    height: 274px;
+    top: 183px;
+    left: 32px;
+    box-sizing: border-box;
+}
+
+.contenedor-informacion{
+    position: absolute;
+    top: 519px;
+    left: 32px;
+    width: 336px;
+    height: 132px;
+}
+
+.contenedor-informacion h3{
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    text-align: center;
+    color: #343A40;
+    padding-bottom: 20px;
+}
+
+.contenedor-informacion p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #495057;
+}
+
+.botones2{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    left: 50px;
+}
+
+.caja-resultado{
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    bottom: 330px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.boton-copiar{
+    background: #ffffff;
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;   
+    line-height: 19.36px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.ocultar{
+    display: none;
+}
+
